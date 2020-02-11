@@ -1,1 +1,1 @@
-# rsschool-cv
+[My CV](https://icexes.github.io/rsschool-cv/cv)
