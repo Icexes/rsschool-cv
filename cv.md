@@ -1,6 +1,6 @@
 # Suboch Denis
 
-## Contacts: 
+## Contact Info: 
 
 *mobile:* +375(33) 647 15 91 
 
