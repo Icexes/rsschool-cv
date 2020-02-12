@@ -1,6 +1,10 @@
+html,body {
+    
+    height:100%;
+}
 body {
     background: linear-gradient(to top left, powderblue, pink);
-    height: 100%;
+   
 }
 
 .main-content {
@@ -11,19 +15,46 @@ body {
 
 .container-wrap {
     background-color: #fff;
-    max-width: 1024px;
-    padding: 0 20px;
+    max-width: 700px;
+    padding: 0 30px;
     margin: 0 auto;
-    height: 90vh;
+    height:100%;
 
 }
 
 header {
     display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+    
+}
+
+.header__surname-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    color: rgb(70, 191, 228);
 }
 
 .card {
     display: flex;
     flex-direction: column;
     max-width: 45%;
+}
+
+.header__surname-container {
+    
+}
+.profile-logo{
+    background-color: black;
+    min-height: 160px;
+    min-width: 160px;
+}
+
+.card__title {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(70, 191, 228);
+}
+.card__description {
+font-family: varela round, sans-serif;
+
 }
