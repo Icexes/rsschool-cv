@@ -24,9 +24,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
-    padding: 20px 90px;
-    
+    height: 250px;
 }
 
 .header__surname-title {
@@ -45,9 +43,9 @@ header {
     
 }
 .profile-logo{
-    background-color: black;
-    min-height: 160px;
-    min-width: 160px;
+    
+    
+    
 }
 
 .card__title {
@@ -57,4 +55,12 @@ header {
 .card__description {
 font-family: varela round, sans-serif;
 
+}
+
+.profile-logo__img {
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    object-fit: cover;
+    margin:25px;
 }
